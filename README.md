@@ -21,7 +21,7 @@ There are two folders: folmer and mlep. Each folder contains the scripts and sam
 		
 			python ./folmer/folmer-preprocessing1.py  
 		
-	For folmer datasets to cluster similar sequences and select intersting sequences for blast
+	For folmer datasets to cluster similar sequences and select intersting sequences for blast:
 			
 			python ./folmer/folmer-preprocessing2.py  
 
