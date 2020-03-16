@@ -1,7 +1,7 @@
 # mite-diet
 DNA analysis code for water mite diet project
 
-There are two folders: folmer and mlep. Each folder contains the scripts and sample date files.
+There are two folders: folmer and mlep. Each folder contains the scripts and sample DNA data files.
 
 # How to run the scripts:
 1. Build the FLASh, seqtk, CD-HIT tools
@@ -13,19 +13,15 @@ There are two folders: folmer and mlep. Each folder contains the scripts and sam
 		./FLASH-master/make
 
 2. Run blast preprocessing scripts  
-	For mlep datasets:
-		
-		to merge paired end reads, cluster similar sequences, select interesting sequences for blast
+	For mlep datasets to merge paired end reads, cluster similar sequences, select interesting sequences for blast:
 		
 			python ./mlep/mlep-preprocessing.py 
  
-	For folmer datasets:
-		
-		to stitch paired end reads
+	For folmer datasets to stitch paired end reads:
 		
 			python ./folmer/folmer-preprocessing1.py  
 		
-		to cluster similar sequences and select intersting sequences for blast
+	For folmer datasets to cluster similar sequences and select intersting sequences for blast
 			
 			python ./folmer/folmer-preprocessing2.py  
 
@@ -41,7 +37,7 @@ There are two folders: folmer and mlep. Each folder contains the scripts and sam
 	
 	For folmer datasets:
 		
-		python ./folmer/folmer-postprocessing1.py
+		python ./folmer/folmer-postprocessing.py
 
 
 
